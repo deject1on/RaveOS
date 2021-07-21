@@ -1,0 +1,44 @@
+@font-face {
+	font-family: "icon-font";
+	src: url("../fonts/icon-font.eot?ehnwna");
+	src: url("../fonts/icon-font.eot?ehnwna#iefix") format("embedded-opentype"),
+		url("../fonts/icon-font.ttf?ehnwna") format("truetype"), url("../fonts/icon-font.woff?ehnwna") format("woff"),
+		url("../fonts/icon-font.svg?ehnwna#icon-font") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+.icon-font {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icon-font" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fontdiscord:before {
+	content: "\e900";
+}
+.icon-fontfacebook:before {
+	content: "\e901";
+}
+.icon-fontmail:before {
+	content: "\e902";
+}
+.icon-fonttelegram:before {
+	content: "\e903";
+}
+.icon-fonttwitter:before {
+	content: "\e904";
+}
+.icon-fontyoutube:before {
+	content: "\e905";
+}
